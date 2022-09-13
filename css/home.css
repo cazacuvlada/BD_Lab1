@@ -1,0 +1,134 @@
+
+body{
+    background-color:white;
+    overflow:scroll;
+    font-family:"Papyrus" , serif;
+}
+h1 {
+    color: lightpink;
+    position: relative;
+    left: 560px;
+    letter-spacing: 2px;
+    width: 50%;
+
+}
+.First{
+   width:300px;
+    position:absolute;
+    top:70px;
+    left:50px;
+
+}
+.Second{
+    width:250px;
+    position:absolute;
+    top:310px;
+    left:50px;
+}
+.Third{
+    width:300px;
+    position:absolute;
+    top:710px;
+    left:50px;
+}
+.chapter{
+    position:absolute;
+    top:100px;
+    left:800px;
+}
+.titleChapter{
+    position:absolute;
+    top:140px;
+    left:700px;
+}
+.text{
+    position:absolute;
+    top:190px;
+    left:430px;
+}
+.text2{
+    position:absolute;
+    top:270px;
+    left:430px;
+}
+.text3{
+    position:absolute;
+    top:350px;
+    left:430px;
+}
+.text4{
+    position:absolute;
+    top:860px;
+    left:430px;
+}
+.reading{
+    width:100px;
+    position:absolute;
+    top:70px;
+    left:900px;
+}
+.rose{
+    width:150px;
+    position:absolute;
+    top:280px;
+    left:1300px;
+}
+.page{
+    width:150px;
+    position:absolute;
+    top:40px;
+    left:1340px;
+}
+.hats{
+    width:200px;
+    position:absolute;
+    top:500px;
+    left:1310px;
+}
+.smile{
+    width:200px;
+    position:absolute;
+    top:830px;
+    left:1290px;
+}
+.menu-bar{
+    position:relative;
+    top:1000px;
+    left:0;
+    display:flex;
+    overflow:hidden;
+    justify-content:space-around;
+    align-items:center;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+
+
+}
+li {
+    float: right;
+}
+li a:hover{
+    background-color:pink;
+}
+ img:hover{
+    transform:scale(1.05);
+}
+.images{
+    cursor:pointer;
+}
+.pictures{
+    cursor:pointer;
+}
+
+.read{
+    width:100px;
+    position:absolute;
+    top:1020px;
+    left:1330px;
+}
