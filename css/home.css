@@ -132,3 +132,44 @@ li a:hover{
     top:1020px;
     left:1330px;
 }
+embed{
+    width:400px;
+    height:300px;
+    position:absolute;
+    top:1150px;
+    left:70px;
+}
+.characters thead tr{
+    background-color:pink;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
+.characters th,
+.characters td{
+    padding:10px 13px;
+}
+.characters tbody tr{
+    border-bottom:1px solid gray;
+    text-align:center;
+}
+
+.characters tbody tr:nth-of-type(even){
+    background-color:pink;
+}
+.characters tbody tr:last-of-type{
+    border-bottom:2px solid pink;
+}
+.characters{
+    border-collapse:separate;
+    border-spacing:3px;
+    position:absolute;
+    top:1130px;
+    left:580px;
+    margin:20px 0;
+    font-size:0.9em;
+    min-width:100px;
+    border-radius:5px 5px 0 0;
+    overflow:hidden;
+
+}
